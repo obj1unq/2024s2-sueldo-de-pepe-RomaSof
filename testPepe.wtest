@@ -16,7 +16,7 @@ describe "Sueldo Pepe" {
 
 	test "pepe es cadete, bono de resultados porcentaje, bono de presentismo nulo y nunca faltó"{
 
-		pepe.categoria(cadete)
+		pepe.categoria(gerente)
 		pepe.bonoResultado(porcentaje)
 		pepe.bonoPresentismo(preNulo)
 		pepe.faltas(0)
