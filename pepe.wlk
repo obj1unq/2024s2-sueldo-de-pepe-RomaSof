@@ -2,15 +2,15 @@ object pepe {
 
     var categoria = cadete //no es buena practica dejarlas vacias
     var faltas = 0
-    var bonoPresentismo = null
-    var bonoResultado = null
+    var bonoPresentismo = 0
+    var bonoResultado = 0
 
     method categoria(_categoria) {
       categoria = _categoria
     }
 
     method neto() {
-      return categoria.neto()
+      return categoria.neto() //lo busca de la categorpia guardada en la variable que por default es cadete.
     }
 
     method bonoResultado(_bonoResultado) {
@@ -117,7 +117,7 @@ object ajuste{
 object demagogico{
     
     method valor(empleado) {
-      return if (empleado.neto() < 180) 500 else 300
+      return if (empleado.neto() < 18000) 500 else 300
     }
 
 }
